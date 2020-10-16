@@ -1,0 +1,88 @@
+
+	*{
+		box-sizing: border-box;
+		overflow:auto;
+		}
+		
+		[class*="col-"] {
+			width: 100%;
+		}
+		@media only screen and (min-width: 1000px) {
+			
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+		}
+	.colom1, .colom2,.colom3 {
+			float:left;
+			max-height: 800px;
+		}
+
+.btn1{
+	width: 30%;
+}
+.btn2{
+	align-content:right;
+	width: 50%;
+}
+.btn3{
+	text-align: center;
+	width: 40%;
+}
+/*	
+.msg{
+	width: 100%;
+	margin-top: 12px;
+	padding: 20px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+	input[type=text], select {
+    width: 100%;
+  	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+  	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #009999;
+    padding: 8px 8px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+*/
+input[type=submit]:hover {
+    background-color:  #03a8a8;
+}
+.column{
+	background-color: #f2f2f2;
+}
+.colom1,.colom2,.colom3 {
+    border-radius: 5px;
+    padding: 20px;
+}

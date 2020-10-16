@@ -1,0 +1,51 @@
+
+    table {
+        border-collopase:collapse;
+        
+        color:#588c7e;
+        font-family:"Times New Roman", Times, serif;
+        font-size:18px;
+        text-align:center;
+    }
+
+     th {
+        background-color:#588c7e;
+        color:white;
+        text-align:center;
+    }
+    
+    .masterlist{  margin: auto;
+  width: 60%;
+  border: 1px solid #588c7e;
+  padding: 10px;
+  margin-bottom:15%;
+    }
+
+    tr:nth-child(odd){background-color:#b3ffe0}
+
+
+    input[type=submit] {
+        width: 15%;
+        background-color: rgb(11, 120, 153);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        box-align: center;
+        
+    }
+    
+    form{
+        text-align:center;
+    }
+    body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}

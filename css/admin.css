@@ -1,0 +1,60 @@
+.navbtns{
+			background-color: white;
+			width: 100%;
+			padding: 15px 20px;
+            border-color: #d6d6c2;
+            border-width: 1px;
+            border-left: none;
+            border-right:none;
+            border-top:  none;
+            cursor: pointer;
+            text-align: left;
+		}
+		.navbtns:hover{
+			background-color: #f5f5f0;
+		}
+		.usercount{
+
+			text-align: center;
+			padding-top: 5px;
+			font-size: 25px;
+		}
+		.userTitle{
+			text-align: center;
+		}
+		.searchinput{
+			padding: 6px;
+			width: auto;
+			border-radius: 4px;
+			border-width: 1px;
+			width: 100%;
+			margin-bottom: 1vh;
+		}
+		.searchbtn{
+			width: auto;
+            background-color: #009999;
+            color: white;
+            padding: 7px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float:  left;
+            margin:auto;
+		}
+		.searchbtn:hover{
+			background-color:#2eb8b8;
+		}
+		.formbtn{
+			width: auto;
+            background-color: #009999;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float:  left;
+		}
+		.formbtn:hover{
+			background-color:#2eb8b8;
+		}

@@ -1,0 +1,41 @@
+body{
+    background-color:#f2f2f2;
+}
+@media only screen and (max-width: 600px) {
+  input[type=text]{
+    min-width:75%;
+}
+}
+input[type=button]{
+            width: auto;
+            background-color: #009999;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        } 
+
+input[type=button]:hover {
+            background-color:#2eb8b8;
+        }
+
+
+input[type=clear]{
+            width: auto;
+            background-color: #009999;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        } 
+
+input[type=clear]:hover {
+            background-color:#2eb8b8;
+        }
+input[type=text]{
+    width:25%;
+}
